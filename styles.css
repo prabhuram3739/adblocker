@@ -1,0 +1,21 @@
+body {
+    width: 200px;
+    height: 200px;
+}
+
+#container {
+    display: l flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+#disableButton {
+    width: 100%;
+    background-color: #cd040b;
+    color: #000000;
+    border: none;
+    font-size: 14px;
+    border-radius: none;
+    padding: 5px;
+    margin-top: 10px;
+}

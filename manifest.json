@@ -1,0 +1,18 @@
+{
+    "name": "Adblocker",
+    "version": "0.0.1",
+    "description": "Adblocker for the browser",
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
+    "browser_action": {
+        "default_icon": "icons/logo/adblock.png",
+        "default_popup": "popup.html",
+        "default_title": "adblock"
+    },
+    "background": {
+        "scripts": ["blocked_domains.js", "background.js"]
+    },
+    "icons": {
+        "16": "icons/logo/adblock.png"
+    },
+    "manifest_version": 2
+}
